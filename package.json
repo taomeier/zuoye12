@@ -1,0 +1,8 @@
+{
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-less": "^3.5.0",
+        "gulp-sequence": "^1.0.0",
+        "gulp-webserver": "*"
+    }
+}
