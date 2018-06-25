@@ -1,1 +1,0 @@
-define(["jquery","render","text!headerTpl"],function(r,n,d){return function(e){r("body").append(d),n(e,r("#header-tpl"),r(".render-header"))}});
