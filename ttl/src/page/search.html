@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <script src="../js/lib/require.js"></script>
+    <script>
+        require(['../js/main'], function() {
+            require(['search'])
+        })
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <i class="icon iconfont icon-zuojiantou-01 jian" onclick="history.back()"></i>
+            <div class="bookPlay">
+                <div class="bookPlay-input">
+                    <i class="icon iconfont icon-fangdajing"></i>
+                    <input type="text" placeholder="请输入书名/作者/关键词" class="input">
+                </div>
+                <div class="bookPlay-icon">
+                    <span class="btnSou">搜索</span>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="scroll">
+                <div class="sayBook">
+                    <ul class="ul-cont">
+
+                    </ul>
+                </div>
+                <div class="history">
+                    <h2>历史记录</h2>
+                    <ol class="ol-his">
+
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/x-handlebars-template" class="text">
+        {{#each ads}}
+        <li>{{ad_name}}</li>
+        {{/each}}
+    </script>
+    <script type="text/x-handlebars-template" class="hisText">
+        {{#each this}}
+        <li>
+            <p>
+                {{this}}
+            </p>
+            <span data-ind="{{@index}}">
+                &times;
+            </span>
+        </li>
+        {{/each}}
+    </script>
+</body>
+
+</html>

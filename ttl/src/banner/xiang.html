@@ -1,0 +1,54 @@
+<div class="this-book">
+    <dl>
+        <dt>
+            <img src="{{item.cover}}" alt="">
+        </dt>
+        <dd>
+            <h3>{{item.title}}</h3>
+            <span>{{item.authors}}</span>
+            <div class="xing">
+                <p> </p>
+                <span><b>{{item.rights_id
+                    }}</b>个评价</span>
+            </div>
+            <p>价格:<span>{{item.price}}</span>书币/千字</p>
+            <div class="math">
+                <span>字数 :<b>{{#wordcound item.word_count
+                    }}{{/wordcound}}</b>万字</span>
+                <strong>{{#finish item.finish}}{{/finish}}</strong>
+            </div>
+        </dd>
+    </dl>
+</div>
+<div class="read">
+    <button>开始阅读</button>
+    <button>下载</button>
+</div>
+<div class="text">
+    <p>
+        {{item.content}}
+    </p>
+</div>
+<div class="text-ti">
+    <h3>最新: <span onclick="location.href='../page/mulu.html?id={{item.source_id}}&active={{item.latest_id}}'">{{item.latest}}</span> 更新于<span>{{#update item.updated}}{{/update}}</span></h3>
+</div>
+<div class="biao-qian">
+    <h2>类别标签</h2>
+    <div class="fen-lei">
+        {{#each item.categories}}
+        <span>{{label}}</span> {{/each}}
+    </div>
+</div>
+<div class="qi-ta">
+    <h4>作者其他图书</h4>
+    {{#each author_books}}
+    <dl>
+        <dt>
+            <img src="{{cover}}" alt="">
+        </dt>
+        <dd>
+            <span>{{title}}</span>
+        </dd>
+    </dl>
+    {{/each}}
+</div>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/swiper-4.1.6.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <script src="./js/lib/require.js"></script>
+    <script>
+        require(['js/main'], function() {
+            require(['index']);
+        })
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <img src="./img/a.png" alt="">
+            <ul>
+                <li class="active">书城</li>
+                <li>书架</li>
+            </ul>
+            <i class="icon iconfont icon-wode"></i>
+        </header>
+        <section>
+            <div class="swiper-container scroll">
+                <div class="swiper-wrapper content ">
+                    <!-- 书城 -->
+                    <div class="swiper-slide book-city ">
+                        <div class="juli">
+                            <div class="bookName">
+                                <div class="bookName-input" onclick="window.location.href = './page/search.html'">
+                                    <i class="icon iconfont icon-fangdajing"></i>
+                                    <input type="text" placeholder="请输入书名/作者/关键词">
+                                </div>
+                            </div>
+                            <div class="swiper-scroll">
+
+                            </div>
+                            <div class="like">
+                                <ol>
+                                    <li>
+                                        <img src="./img/c.png" alt="">
+                                        <span>限免</span>
+                                    </li>
+                                    <li>
+                                        <img src="./img/f.png" alt="">
+                                        <span>女生</span>
+                                    </li>
+                                    <li>
+                                        <img src="./img/g.png" alt="">
+                                        <span>男生</span>
+                                    </li>
+                                    <li>
+                                        <img src="./img/h.png" alt="">
+                                        <span>分类</span>
+                                    </li>
+                                    <li>
+                                        <img src="./img/i.png" alt="">
+                                        <span>排行</span>
+                                    </li>
+                                </ol>
+                            </div>
+                            <!-- 本周最火 -->
+                            <div class="week-hot">
+                                <div class="hot">
+                                    <span></span>
+                                    <h3>本周热门</h3>
+                                </div>
+                                <div class="newWeek">
+
+                                </div>
+                                <div class="lookMore">
+                                    <h3>查看更多</h3>
+                                </div>
+                            </div>
+                            <!-- 重磅推荐 -->
+                            <div class="zhong-bang">
+                                <div class="tui">
+                                    <span>重磅推荐</span>
+                                    <strong>推</strong>
+                                    <span><b>男</b>|<b>女</b></span>
+                                </div>
+                                <div class="tui-jian">
+
+                                </div>
+                                <div class="huan">
+                                    <ul>
+                                        <li class="change-btn" data-id="0" data="2">
+                                            换一换
+                                        </li>
+                                        <li>
+                                            查看全部
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 女生最爱 -->
+                            <div class="gilrLove">
+                                <div class="gilr-love">
+                                    <h3>女生最爱</h3>
+                                </div>
+                                <div class="gilr-say">
+
+                                </div>
+                                <div class="huan">
+                                    <ul>
+                                        <li class="change-btn" data-id="0" data="3">
+                                            换一换
+                                        </li>
+                                        <li>
+                                            女生频道>>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 男生最爱 -->
+                            <div class="boyLove">
+                                <div class="boy-love">
+                                    <h3>男生最爱</h3>
+                                </div>
+                                <div class="boy-say">
+                                </div>
+                                <div class="huan">
+                                    <ul>
+                                        <li class="change-btn" data-id="0" data="4">
+                                            换一换
+                                        </li>
+                                        <li>
+                                            女生频道>>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 限时免费 -->
+                            <div class="mian">
+                                <div class="hot">
+                                    <span></span>
+                                    <h3>限时免费</h3>
+                                </div>
+                                <div class="xianM">
+
+                                </div>
+                                <div class="lookMore">
+                                    <h3>更多限免佳作>></h3>
+                                </div>
+                            </div>
+                            <!-- 精选专题 -->
+                            <div class="zhuan-ti">
+
+                            </div>
+                            <!-- 上拉加载更多 -->
+                            <div class="more-content">
+                                <div class="content-list">
+
+                                </div>
+                                <p class="loading">加载更多</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 书架 -->
+                    <div class="book-jia swiper-slide">
+                        <div class="bookPlay">
+                            <div class="bookPlay-input" onclick="window.location.href = './page/search.html'">
+                                <i class="icon iconfont icon-fangdajing"></i>
+                                <input type="text" placeholder="请输入书名/作者/关键词">
+                            </div>
+                        </div>
+                        <div class="shuJia-content">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

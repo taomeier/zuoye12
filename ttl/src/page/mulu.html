@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/mulu.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <script src="../js/lib/require.js"></script>
+    <script>
+        require(['../js/main'], function() {
+            require(['mulu'])
+        })
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="book-name">
+                <i class="icon iconfont icon-zuojiantou-01" onclick="history.back()"></i>
+                <h3>驭房有术</h3>
+            </div>
+            <i class="icon iconfont icon-shouye" onclick="location.href = '../index.html'"></i>
+        </header>
+        <section>
+            <div class="scroll">
+                <div class="mulu-list">
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/x-handlebars-template" class="list">
+        <ul>
+            {{#each this}}
+            <li>
+                <div class="list-jie">
+                    <span class="{{#if active}}active{{/if}}">{{title}}</span> {{#if free}}
+                    <b>免费</b> {{/if}}
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+    </script>
+</body>
+
+</html>

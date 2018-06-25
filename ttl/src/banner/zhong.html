@@ -1,0 +1,28 @@
+{{#each this}} {{#if @index}}
+<div class="one-two">
+    <div class="book-two">
+        <b>{{count}}</b>
+        <h4>{{title}}</h4>
+        <span>{{authors}}</span>
+    </div>
+</div>
+{{else}}
+<div class="one">
+    <dl>
+        <dt>
+            <img data-original="{{cover}}" alt=""  class="lazy">
+            <span>{{#finish finish}}{{/finish}}</span>
+            <b>{{count}}</b>
+        </dt>
+        <dd>
+            <h3>{{title}}</h3>
+            <span>{{authors}}</span>
+            <p>{{summary}}</p>
+            <div class="fen-lei">
+                {{#each tags}}
+                <span>{{this}}</span> {{/each}}
+            </div>
+        </dd>
+    </dl>
+</div>
+{{/if}} {{/each}}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: .14rem;
+  font-style: normal;
+  font-family: "微软雅黑";
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-decoration: none; }
+
+ol,
+ul,
+li {
+  text-decoration: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 100px;
+  /*font-size: 62.5%; 1rem=10px */
+  /*font-size: 100px; 1rem=100px 0.1=10px */ }
+
+img,
+div,
+body,
+html,
+ul,
+li,
+a {
+  -webkit-touch-callout: none; }
+
+input,
+button {
+  outline: 0; }
+
+button {
+  cursor: pointer; }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc; }
+
+input {
+  -webkit-appearance: none;
+  border: 0; }
+
+.clearfix:after {
+  content: "";
+  height: 0;
+  display: block;
+  overflow: hidden;
+  *zoom: 1;
+  visibility: hidden;
+  clear: both; }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+.wrap,
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+section {
+  flex: 1; }
+
+header {
+  width: 100%;
+  height: .44rem;
+  background: #efeff0;
+  border-bottom: 1px solid #ddd;
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .book-name {
+    display: flex;
+    align-items: center; }
+    header .book-name i.icon {
+      color: #aaa;
+      font-weight: bold;
+      font-size: .2rem; }
+    header .book-name h3 {
+      font-size: .2rem;
+      margin-left: .08rem; }
+  header i.icon {
+    color: #aaa;
+    font-weight: bold;
+    font-size: .2rem; }
+
+.scroll {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll; }
+
+.mulu-list {
+  width: 100%;
+  height: auto; }
+  .mulu-list ul {
+    width: 100%;
+    height: auto; }
+    .mulu-list ul li {
+      width: 100%;
+      height: .45rem;
+      padding: 0 10px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #ccc; }
+      .mulu-list ul li .list-jie {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .mulu-list ul li .list-jie span {
+          color: #555; }
+          .mulu-list ul li .list-jie span s {
+            margin-left: 5px; }
+          .mulu-list ul li .list-jie span.active {
+            color: #F35D02; }
+        .mulu-list ul li .list-jie b {
+          color: #6cb378; }

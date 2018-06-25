@@ -1,0 +1,17 @@
+ {{#each this}}
+<dl>
+    <dt>
+        <img data-original="{{cover}}" alt="" class="lazy">
+        <span>{{#finish finish}}{{/finish}}</span>
+    </dt>
+    <dd>
+        <h3>{{title}}</h3>
+        <span>{{authors}}</span>
+        <p>{{summary}}</p>
+        <div class="fen-lei">
+            {{#each tags}}
+            <span>{{this}}</span> {{/each}}
+        </div>
+    </dd>
+</dl>
+{{/each}}
