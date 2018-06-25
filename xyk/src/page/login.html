@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/libs/flexible.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <section>
+            <div class="header">
+                <img src="https://account.xiaomi.com/static/res/11eb7d1/account-static/respassport/acc-2014/img/2018/milogo.png" alt="">
+                <p>小米帐号登录</p>
+            </div>
+            <div class="box">
+                <input type="text" placeholder="请输入您的帐号" class="user">
+                <input type="password" placeholder="请输入密码" class="pwd">
+                <button class="login-btn">登录</button>
+            </div>
+        </section>
+    </div>
+    <script src="../js/libs/require.js"></script>
+    <script>
+        require(['../js/main.js'], function() {
+            require(['login'])
+        });
+    </script>
+</body>
+
+</html>

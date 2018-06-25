@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/libs/flexible.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <span class="icon-sign"></span>
+            <div class="switch-tap">
+                <span class="tab-item active">书城</span>
+                <span class="tab-item">书架</span>
+                <div class="line"></div>
+            </div>
+            <span class="icon-my"></span>
+        </header>
+        <div class="content">
+            <div class="swiper-container wrap-swiper swiper-no-swiping">
+                <div class="swiper-wrapper">
+                    <!-- 书城 -->
+                    <div class="swiper-slide pull-scroll">
+                        <div up="上拉加载更多" down="下拉可刷新">
+                            <!-- 顶部banner -->
+                            <div class="block top-bome">
+                                <div class="top">
+                                    <div class="top-search">
+                                        <span class="icon-search"></span>
+                                        <div>输入书名/作者/关键字</div>
+                                    </div>
+                                </div>
+                                <div class="banner swiper-container swiper-no-swiping">
+                                    <div class="swiper-wrapper banner-wrap"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                                <script id="bannertpl" type="text/x-handlebars-template">
+                                    {{#each data}}
+                                    <div class="swiper-slide"><img src="{{ad_pic_url}}" alt=""></div>
+                                    {{/each}}
+                                </script>
+                                <ul class="top-home_btn">
+                                    <li>
+                                        <img class="top-home_icon" src="imgs/icon-money.png" alt="">
+                                        <p class="top-home_des">限免</p>
+                                    </li>
+                                    <li>
+                                        <img class="top-home_icon" src="imgs/icon-female.png" alt="">
+                                        <p class="top-home_des">女生</p>
+                                    </li>
+                                    <li>
+                                        <img class="top-home_icon" src="imgs/icon-male.png" alt="">
+                                        <p class="top-home_des">男生</p>
+                                    </li>
+                                    <li>
+                                        <img class="top-home_icon" src="imgs/icon-category.png" alt="">
+                                        <p class="top-home_des">分类</p>
+                                    </li>
+                                    <li>
+                                        <img class="top-home_icon" src="imgs/icon-rank.png" alt="">
+                                        <p class="top-home_des">排行</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- 本周最火 -->
+                            <div class="block week-main">
+                                <div class="week-main_header">
+                                    <h3>本周最火</h3>
+                                </div>
+                                <ul class="book-table week-table"></ul>
+                                <a class="week-main_footer" href="#">查看更多</a>
+                            </div>
+                            <!-- 重磅推荐 -->
+                            <div class="block heavy-main">
+                                <div class="heavy-main_header">
+                                    <p>重磅推荐<i>推</i></p>
+                                    <div class="tap">
+                                        <a href="#">男</a>
+                                        <a href="#">女</a>
+                                    </div>
+                                </div>
+                                <div class="book-bd book-ly"></div>
+                                <script id="list-tap_tpl" type="text/x-handlebars-template">
+                                    {{#each this}} {{#if (limit @index)}}
+                                    <div class="book-list list-tap">
+                                        <span class="book-list_order">0{{addInd @index}}</span>
+                                        <p class="book-list_title">
+                                            {{title}}
+                                            <i class="book-list_autor">{{authors}}</i>
+                                        </p>
+                                    </div>
+                                    {{/if}} {{/each}}
+                                </script>
+                                <div class="book-main_footer">
+                                    <a href="#" class="btn-next">换一换</a>
+                                    <a href="#" class="btn-more">查看全部</a>
+                                </div>
+                            </div>
+                            <!-- 女生最爱 -->
+                            <div class="block fave-main">
+                                <div class="fave-main_header">
+                                    <h3>女生最爱</h3>
+                                </div>
+                                <div class="book-bd book-woman"></div>
+                                <div class="book-main_footer">
+                                    <a href="#" class="btn-next">换一换</a>
+                                    <a href="#" class="btn-more">女生最爱>></a>
+                                </div>
+                            </div>
+                            <!-- 男生最爱 -->
+                            <div class="block fave-main">
+                                <div class="fave-main_header">
+                                    <h3>男生最爱</h3>
+                                </div>
+                                <div class="book-bd book-man"></div>
+                                <div class="book-main_footer">
+                                    <a href="#" class="btn-next">换一换</a>
+                                    <a href="#" class="btn-more">男生最爱>></a>
+                                </div>
+                            </div>
+                            <!-- 限时免费 -->
+                            <div class="block limit-main">
+                                <div class="week-main_header">
+                                    <h3>限时免费</h3>
+                                </div>
+                                <ul class="book-table limit-table"></ul>
+                                <a class="week-main_footer" href="#">更多限免佳作>></a>
+                                <script id="limit-tpl" type="text/x-handlebars-template">
+                                    {{#each this}}
+                                    <li>
+                                        <a href="#">
+                                            <img src="{{data.cover}}" alt="">
+                                            <p class="title">{{data.title}}</p>
+                                        </a>
+                                    </li>
+                                    {{/each}}
+                                </script>
+                            </div>
+                            <!-- 精彩专题 -->
+                            <div class="block splendid-main">
+                                <div class="heavy-main_header">
+                                    <p>精彩专题<i>热</i></p>
+                                </div>
+                                <ul class="banner-list"></ul>
+                                <a class="week-main_footer" href="#">更多精彩专题>></a>
+                                <script id="splendid-tpl" type="text/x-handlebars-template">
+                                    {{#each this}}
+                                    <li><img src="{{ad_pic_url}}" alt=""></li>
+                                    {{/each}}
+                                </script>
+                            </div>
+                            <!-- 列表 -->
+                            <div class="list-more">
+                                <div class="book-bd book-more-list">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 书架 -->
+                    <div class="swiper-slide frame-scroll">
+                        <div>
+                            <div class="top">
+                                <div class="top-search">
+                                    <span class="icon-search"></span>
+                                    <div>输入书名/作者/关键字</div>
+                                </div>
+                                <span class="icon-switch"></span>
+                            </div>
+                            <div class="book-frame"></div>
+                            <script id="book-frame" type="text/x-handlebars-template">
+                                {{#each this}}
+                                <dl>
+                                    <a href="#">
+                                        <dd>
+                                            <img src="{{cover}}" alt="">
+                                        </dd>
+                                        <dt>
+                                        <p class="title">{{title}}</p>
+                                        <p class="autor">{{authors}}</p>
+                                        <p class="extra">{{latest}}</p>
+                                    </dt>
+                                    </a>
+                                </dl>
+                                {{/each}}
+                            </script>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./js/libs/require.js"></script>
+    <script>
+        require(['./js/main.js'], function() {
+            require(['index'])
+        });
+    </script>
+</body>
+
+</html>

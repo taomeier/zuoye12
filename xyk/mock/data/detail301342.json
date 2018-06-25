@@ -1,0 +1,148 @@
+{
+    "comment": {
+        "top_comment": [{
+            "status": 0,
+            "author_nick": "1022668576自由人",
+            "author": 1022668576,
+            "author_icon": "https://s1.mi-img.com/mfsv2/avatar/fdsc3/p01mQU4HCKIu/w74da5RMuarKwj.jpg",
+            "comment_count": 0,
+            "object_id": 1678233,
+            "content": "写的非常精采         我非常喜欢       就是更新太慢看起来有些不连惯     感觉很别扭     而且收费似乎有点偏高       虽然费用没变可是章节却比以前短了",
+            "rate": 5,
+            "like_count": 24,
+            "create_time": 1469024441,
+            "type": 0,
+            "id": 3012754
+        }],
+        "top_comment_count": 4,
+        "all_comment_count": 3276
+    },
+    "stats": {
+        "paid": 62018
+    },
+    "author_books": [{
+        "ad": 0,
+        "word_count": 1108211,
+        "owner": 0,
+        "allow_discount": false,
+        "ad_time": 0,
+        "ad_duration": 0,
+        "free_chapter": false,
+        "score_count": 478,
+        "copyright": "",
+        "title": "超品巫师",
+        "new_tags": [
+            "励志",
+            "法师",
+            "练功流",
+            "玄学"
+        ],
+        "on_sale": true,
+        "comment_count": 264,
+        "has_ad": 0,
+        "click": 1876566,
+        "latest_id": 398,
+        "score": 9.43,
+        "allow_free_read": 1,
+        "rights_id": 10080,
+        "channel": [
+            1
+        ],
+        "updated": 1527098840,
+        "finish": false,
+        "tags": [
+            "都市",
+            "都市生活"
+        ],
+        "price": 5,
+        "chapter_count": 398,
+        "authors": "九灯和善",
+        "categories": [{
+                "category_id": 5000000,
+                "label": "都市"
+            },
+            {
+                "category_id": 5000100,
+                "label": "都市生活"
+            }
+        ],
+        "rights": "阅文集团旗下起点中文网",
+        "level": 0,
+        "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01c67qaZzC1/nZQeSj5S1459Ly.jpg",
+        "summary": "十几年前，一个叫《爸爸在这儿》的节目几位父亲带着萌萌哒的小女孩走进了一个偏僻的小山村。\n \n十几...",
+        "fiction_id": 420570,
+        "outer_id": "9147209804959803",
+        "latest": "第371章 大罗金果丹"
+    }],
+    "item": {
+        "ad": 0,
+        "word_count": 9562613,
+        "owner": 0,
+        "allow_discount": false,
+        "ad_time": 0,
+        "ad_duration": 0,
+        "free_chapter": false,
+        "score_count": 4639,
+        "rights": "阅文集团旗下起点中文网",
+        "copyright": "",
+        "title": "超品相师",
+        "new_tags": [
+            "玄学"
+        ],
+        "on_sale": true,
+        "comment_count": 3276,
+        "has_ad": 0,
+        "click": 48316487,
+        "content": "相师分九品，一品一重天\n风水有境界，明理，养气，修身，问道。\n二十一世纪的一位普通青年偶获诸葛亮生前的玄学传承，没有大志向的秦宇，只想守着老婆孩子热炕头，却机缘巧合一步步走上相师之巅，成就超品之尊，相地，相人，相红颜\n六爻算尽天下事，八字测遍世间人！\n关注九灯微信：jiudengheshan或者公众号搜寻：九灯和善",
+        "source": 2,
+        "latest_id": 3471,
+        "score": 8.37,
+        "allow_free_read": 1,
+        "toc": [],
+        "rights_id": 10080,
+        "channel": [
+            1
+        ],
+        "updated": 1516059713,
+        "finish": true,
+        "tags": [
+            "热血都市",
+            "都市情缘",
+            "都市",
+            "都市生活"
+        ],
+        "started": 1434535082,
+        "price": 5,
+        "chapter_count": 3465,
+        "authors": "九灯和善",
+        "categories": [{
+                "category_id": 20000,
+                "label": "热血都市"
+            },
+            {
+                "category_id": 20100,
+                "label": "都市情缘"
+            },
+            {
+                "category_id": 5000000,
+                "label": "都市"
+            },
+            {
+                "category_id": 5000100,
+                "label": "都市生活"
+            }
+        ],
+        "author_books_total": 2,
+        "level": 0,
+        "created": 1435165596,
+        "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p017FYO0QmyQ/RWX9PUBWGHUWVJ.jpg",
+        "summary": "相师分九品，一品一重天\n风水有境界，明理，养气，修身，问道。\n二十一世纪的一位普通青年偶获诸葛亮生前...",
+        "id": 1678233,
+        "source_id": 301342,
+        "fiction_id": 301342,
+        "outer_id": "22390647000809802",
+        "latest": "结束语"
+    },
+    "ips": [],
+    "result": 0
+}

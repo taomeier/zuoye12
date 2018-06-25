@@ -1,0 +1,41 @@
+@import "tpl/_common.scss";
+section {
+    padding: 0 pxTorem(28px);
+    .header {
+        padding: pxTorem(30px) 0 pxTorem(20px);
+        text-align: center;
+        img {
+            width: pxTorem(50px);
+            height: pxTorem(50px);
+            display: block;
+            margin: 0 auto;
+            margin-bottom: pxTorem(15px);
+        }
+        p {
+            font-size: pxTorem(18px);
+            color: #000;
+        }
+    }
+    .box {
+        width: 100%;
+        height: auto;
+        padding-top: pxTorem(20px);
+        input {
+            width: 100%;
+            padding: pxTorem(15px) 0;
+            border-bottom: pxTorem(1px) solid #d3d3d3;
+            font-size: pxTorem(15px);
+        }
+        button {
+            margin-top: pxTorem(25px);
+            width: 100%;
+            padding: pxTorem(15px) 0;
+            border: none;
+            background: none;
+            font-size: pxTorem(15px);
+            color: $write-color;
+            background: $tab-active-color;
+            border-radius: pxTorem(6px);
+        }
+    }
+}

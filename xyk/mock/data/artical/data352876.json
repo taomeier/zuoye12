@@ -1,0 +1,515 @@
+{
+    "msg": "成功",
+    "data": [{
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=e43f630d83fd4711a877f0fd93b58a2a&token=NuXIzAh93h2w99ricPIxahliFaBTiLpD5MEXHICePRmlVoHSKOktVc-wG1wtTDzYw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=P4GpfqvV7n50p7dU-p5BPKxndxM",
+            "c": 0,
+            "sha1": "c2331"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=b9479685bf1a4878a338b1f565969d34&token=NuXIzAh93h2w99ricPIxanDxTp_yqX-X2aQ9oU3KcAHDaoVwYT8TwNfQqcJgdkOow2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=2zv0yydSXFnb3mEIHldUKOeXqQs",
+            "c": 1,
+            "sha1": "cd07c"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=b15d3f42cc9b4ee58b0e0e9dab12e994&token=NuXIzAh93h2w99ricPIxanHLbo63jWo8WZ4xKiXMgmatVlErONlQa5RDSW3Y5AA8w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=1c16XD1cSNyjTr8_9j_IqKkLcUc",
+            "c": 2,
+            "sha1": "7bd02"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=7e411abdabe246e2883716f1e67e98ac&token=NuXIzAh93h2w99ricPIxatLmbd9cOMpUlfxjnVN73BhXVsPDKbNka7JbLWDMmfl5w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=bpat3-g5JtLI7leNzO_ceyAX7TQ",
+            "c": 3,
+            "sha1": "f36f6"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=8b2d09af1c05424db2e2f031420fd7ce&token=NuXIzAh93h2w99ricPIxasb8I5JMjWHKxa6mNiGmL1dR2hBEGpQe3ZDUijxhzd9Nw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=Pb2v0ATK-y28Lf2-9mtv3XARi3Y",
+            "c": 4,
+            "sha1": "682aa"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=5fa007aa80c443a297439f7174fc89fd&token=NuXIzAh93h2w99ricPIxan3de6x0QTKMUevtVn8ocLRy-aWnP1LazpXRLRpAIvPNw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=-09LrRL1cV2y04gWRNxN9nAfmzM",
+            "c": 5,
+            "sha1": "729fa"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=64c264f8116f47089cacfa4840162254&token=NuXIzAh93h2w99ricPIxasOXmKeQ7koUOg7XCQfmFVTEEgzNQ2Va1dA09CKByHCgw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=YfSP1MhfHpWhFgrS9hj43XmvSSc",
+            "c": 6,
+            "sha1": "4979b"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=32fcfec1d08d410b825e0dc31fc248a8&token=NuXIzAh93h2w99ricPIxagx1OAZc4tq02QmaZaJUgXZmbn6HUKIu5zAUHzc1kbZJw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=rlardxh8U2j9E4WdvR-YN7GBveM",
+            "c": 7,
+            "sha1": "7dfcd"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=71a467cc0d1d43b78c7c8897996528ee&token=NuXIzAh93h2w99ricPIxauMi5cN_BnVTnjLKQLu_gL4vmnn7KiVmXmcXIanQ1Wlww2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=ymmstrNxhOhM5mwktPUkdyfHp8Y",
+            "c": 8,
+            "sha1": "6cba0"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=76563430c0cc4c879cfde998d74910f6&token=NuXIzAh93h2w99ricPIxapXDaFh2g8uDI3x6wDL6UUX_YDV4XZGdF2FRW8haTRvKw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=jbJwsA0k6wVxgtqPw97LnienNaY",
+            "c": 9,
+            "sha1": "623d0"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=61870f5cf71b41a6ac88383e918cab2d&token=NuXIzAh93h2w99ricPIxaqMG9ccFem7OadcIeqhVk9aRevUA4-twjPfBjpoG9zxHw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=ws_XNuMPwg_Tb_bTvxXHyOWOWkI",
+            "c": 10,
+            "sha1": "d0faf"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=4e00638be0124d98938e30987167b40d&token=NuXIzAh93h2w99ricPIxans_bb6tkJiaMncZuWoFYE0dsHjhfiygtgygqlIZdYqlw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=odfiOFF-SIHAUBLo-a0YlDlBuVQ",
+            "c": 11,
+            "sha1": "1af21"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=c9fb0b8a22c54b15b8fb3ed8eb82c4a5&token=NuXIzAh93h2w99ricPIxai5tNoU9q1B3fAy0DJS0Lrq_rImDWl2Z2U9BwK3ifWG-w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=ZjMJLLozqA9TPPHEQBUKUjfkKi4",
+            "c": 12,
+            "sha1": "498bf"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=f6af1a00643a48718ba949fb62158957&token=NuXIzAh93h2w99ricPIxameGmRhgA5jCivQGCDQBIgySiengn8W09RgV5fVI595mw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=JLp-2rcVI0NQR43jWwt6KI85Weg",
+            "c": 13,
+            "sha1": "81dc5"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=cd02a9f900fa4772a9c6b20d5a273442&token=NuXIzAh93h2w99ricPIxamOcQGzpA0Tjh6I0JxjYapDY7wt4ujYIk3DlmlgPsIOew2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=RYAUa8GxIiUevKo8lt7YjDtCY1w",
+            "c": 14,
+            "sha1": "82dd6"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=84ba64e54332434bafa32f464641f36e&token=NuXIzAh93h2w99ricPIxajp_6iDfSkPrV8hkQgSvmhp5gYaUkvNkiEzKyU55szRKw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=CFxwh53KvumLia5rdzsQ9w68bjQ",
+            "c": 15,
+            "sha1": "71d25"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=6b1cdaf7e88549e4b99d333223960f2c&token=NuXIzAh93h2w99ricPIxandBR5zUOvYUC21n6nnMLMdU8ZpC8klf08e7cS6YeDXnw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=BYOF9XtyHemxNXXZFuOWrHXxUrQ",
+            "c": 16,
+            "sha1": "290aa"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=a32ce3733399468d99cfbf82bd479dde&token=NuXIzAh93h2w99ricPIxai0c5AhCYI0_hZ-2AdtzJjb77-A3GSDNvnVDReRkYcJIw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=AIPKmFbciogFrhyfwMVkQXpKO2k",
+            "c": 17,
+            "sha1": "d61fd"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=4fdc714053814cdba7f6e04527ea29f6&token=NuXIzAh93h2w99ricPIxauMi5cN_BnVTnjLKQLu_gL6HRsu7w14y3YqOMtz6ioR9w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=2p7hPOZyOwZ86xTgxZUBLsVVyrk",
+            "c": 18,
+            "sha1": "16b63"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=2a06cc8ca1544f4e95d176fd1ea24405&token=NuXIzAh93h2w99ricPIxamJ954Wki9bsaOE38fi8AYmUusoPBBtMZYd8YNMI1FuOw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=OOacNr9p5rDtB11pIST5u7AiN9M",
+            "c": 19,
+            "sha1": "639a1"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=70fa6815ec34463886f998a671eb2200&token=NuXIzAh93h2w99ricPIxahCMzHjUZgAlBGWAGa9xRsHJSVnpZTLNp2f7gqXyg5Gjw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=8dTsHDu2lN5g0XKgewPNFXpQmME",
+            "c": 20,
+            "sha1": "34a0a"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=b713a52530d94a3fbd64d88799967675&token=NuXIzAh93h2w99ricPIxarb9CVRqyVZiQz-X5bM8fchqsgUIIE16DtWXtJ2xYTd1w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=iDlkKjSiCGsCSSM5ZMdUQllEr6w",
+            "c": 21,
+            "sha1": "df222"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=a3e560ffebd74921be86395309b9271d&token=NuXIzAh93h2w99ricPIxak3LoS2fDg_NmudHnK2MVLfv5MCZwFLe8hY8c_N0r79Sw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=3N-scb66yoLFeIY2jJXU0sNFcoQ",
+            "c": 22,
+            "sha1": "aa438"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=c9a2ef5f91cb4a18a45b6e3821ac5d49&token=NuXIzAh93h2w99ricPIxagYa4JuBXcbYZUtvuoxxT9PrRpvzk65YH1yYWa89Gc7_w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=cGpaithon0hdH3EgfmCYloC2hqk",
+            "c": 23,
+            "sha1": "e9f0b"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=f5c2654f20fb4b37af8bbe3d76dbf2af&token=NuXIzAh93h2w99ricPIxavDfnF53DhqHH1Z2L4bsDD0bdyfnHc0XlkjCtp5L1EHww2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=g0vKyptv0urFF47l16H1kGC7lWE",
+            "c": 24,
+            "sha1": "69e0c"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=f5ab72c273d3438ea6e80843015d44b7&token=NuXIzAh93h2w99ricPIxanAjG9mhkGLgI_DZbHJ5LzmR7O-3f9ka36NS9mSD3J9Cw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=2busxxblnKtp1H-Pmc8biuj9PuY",
+            "c": 25,
+            "sha1": "09aab"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=cd41efef3b4d481eaa24e3c9aaea7bf1&token=NuXIzAh93h2w99ricPIxauqjfoxhDo-5Ejjp7pk5XX0w-VquCPH28bocR9fEtlLkw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=X_Q16owd9kQ64PpVAwQTr5QOYxI",
+            "c": 26,
+            "sha1": "78e49"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=992e6c2a527a4b328e1f516f58ada0fc&token=NuXIzAh93h2w99ricPIxalTsOf_cxWmADz8CCYuWAQ2WIrN6OWzDnrPAPA41sLmaw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=9k4URlPSez9qcqZTzAt0np19of0",
+            "c": 27,
+            "sha1": "4b5a4"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=846350ccbc454b8cad4de61b3815ed20&token=NuXIzAh93h2w99ricPIxamrjkMZU7KP2fASBYVos6AKPxvLoSW00w5nPijDswmjqw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=7zAeKg2PS2nkLX8iHHZmykguXHk",
+            "c": 28,
+            "sha1": "be444"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=7fbe1cd6c67c4b90b57a49f46b3145ef&token=NuXIzAh93h2w99ricPIxan-IkTRzUrj5SF2BlZtSV6yFejmZk_5VrxeKlh2_sSyNw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=dWNrh-u1iSTZW7mBPnV8mpWKp4o",
+            "c": 29,
+            "sha1": "5fe67"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=729ff555008149f689f27c42df08c0e6&token=NuXIzAh93h2w99ricPIxajmhZnld_nG55Rj9vgMt4GDf03qMmThvZnUN4lQZ_AiYw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=if3I9uezaNYd1lmu-ZHVifwdMZA",
+            "c": 30,
+            "sha1": "63096"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=9b22a2f20471413d9530b1ce551169da&token=NuXIzAh93h2w99ricPIxamyr9vsvdan2YGMIen_Ds43SIihrnrezhhLYqJf1ucekw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=GGQeA_t6uKqRwctohhLkEMOoAms",
+            "c": 31,
+            "sha1": "1b884"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=ed6b6d9952da41c8b8540d00444899b0&token=NuXIzAh93h2w99ricPIxarTKUqWPKwAunAlyqRvU48tDKStoYj738ns2NY3KN5upw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=ZBsf5vCHkcOIf38aGUQwjILWhVY",
+            "c": 32,
+            "sha1": "8580a"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=738bc98cb73b4da2bc4fa508c8ae14da&token=NuXIzAh93h2w99ricPIxatLwOVFI6kks4msqYWbucB20NokNnsyCMVj6PyBOVzcsw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=KU0jgwxU7tnpq_-PRCmJeHkWKTk",
+            "c": 33,
+            "sha1": "f44aa"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=69d798e53936414394f4de9499d3dd88&token=NuXIzAh93h2w99ricPIxaoyHbW4uMjjFAZl3LcTE8cIlBJJlyvcRNi7FKRpuvwhqw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=VHQhtbsrKJlL1mbN9MeXuOmm41c",
+            "c": 34,
+            "sha1": "020a5"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=b0147e8b55c74e0a9f3d2ddb398b3ec8&token=NuXIzAh93h2w99ricPIxai_Xen8x8CbsuAQiLDoKH_og3-9R4aYKQbmrLJdEP661w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=q-pWDGh1bni2x0QjXO6L2OADbtk",
+            "c": 35,
+            "sha1": "fb6d4"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=fbe2dd01956243929e9cfbf70b68de59&token=NuXIzAh93h2w99ricPIxak3LoS2fDg_NmudHnK2MVLfbf1eSFGjomgrgHBuvElg6w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=X_KA15SxnQcBmVrWBvC_QidL5Yg",
+            "c": 36,
+            "sha1": "73c11"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=4630428539a8402394dc0b28298809b5&token=NuXIzAh93h2w99ricPIxagYa4JuBXcbYZUtvuoxxT9P0IgwEDudf5NxNeE1eL8QGw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=MWO2-vNpZA-_1wA3l2pQJbgQLiI",
+            "c": 37,
+            "sha1": "be9c1"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=03212b9c603a4428b47b4cd37394edb8&token=NuXIzAh93h2w99ricPIxagKDBPpuynXWjIST8bt4QJZ3qclAJSIbJA5ZBmi8lVuLw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=H0Y_vSDgx5DSgOIm6wU9O8iRiyk",
+            "c": 38,
+            "sha1": "b7961"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=9b08adebe7da481cae85ef07b05d3c18&token=NuXIzAh93h2w99ricPIxagYa4JuBXcbYZUtvuoxxT9PJd99pH78YbzyYMLTigu8cw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=YMHaQfrFw2qJjWh6OcqABUMaYlg",
+            "c": 39,
+            "sha1": "7c827"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=890364ec72b5424b84d06e84655e1043&token=NuXIzAh93h2w99ricPIxam-nXSnZsuV3Atm8zzhT9aR7Lkzek4uSuV6ZxQmzUJA7w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=MLlaVdbRzhwGYVjZdxfE_zauXCM",
+            "c": 40,
+            "sha1": "17c69"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=bcc2671c3ede4ecf84cc87d9c07eb2ad&token=NuXIzAh93h2w99ricPIxapPDhY80H0gajtsb3uZQ-VIalg7tX5Wf8i3G9CY65mFpw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=LtRMtUYv4InwMgrspynKY_PKLlg",
+            "c": 41,
+            "sha1": "56d34"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=6ac34bf9b7ba482ca918de5b67e5aa90&token=NuXIzAh93h2w99ricPIxaqMG9ccFem7OadcIeqhVk9YE8Adzrylkb8RvzijWzAtMw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=UqptUIlFvlXeFKv3PPldzVA9bMs",
+            "c": 42,
+            "sha1": "56fab"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=8d77a55adbbf4b6da1982cdbb8b7705b&token=NuXIzAh93h2w99ricPIxarUUyuN3hXHe6PtyLThCu42v23xcv46gNXkYDtXZQRC2w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=yOiFGgcfMkZf_3hgJyPWmsTWiIE",
+            "c": 43,
+            "sha1": "40c8e"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=65a6d5727b894707a195e6d99dd49dcf&token=NuXIzAh93h2w99ricPIxagfGjpyA8tiGzS5nQuLetNA8E_G6zJr1_9H6VXH4fDaew2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=WTBAWc_2Tj99dsFMnRvT_S_Mwqw",
+            "c": 44,
+            "sha1": "d2285"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=6430269e10d9447097790d28b5899cc2&token=NuXIzAh93h2w99ricPIxatWX5Qfw6sqmvyVu-uGICwV_Ys2PjgnkmCYJHxtoVlJQw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=Oo5aDRTqmN7ffYVTRHHLIIyTeB0",
+            "c": 45,
+            "sha1": "22e4f"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=1e2e5cd5994d4401bbb65139ba533f5a&token=NuXIzAh93h2w99ricPIxavaRQzpRpk_jHbLvdHznGNyK2RyyRgxB2vw96GeJznPJw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=XCpqy_XHEtEBZeZZ1MZQ-DsNMCY",
+            "c": 46,
+            "sha1": "32ec2"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=afab61b2b91f4e7fa6d96067c0e7d0bb&token=NuXIzAh93h2w99ricPIxaklaLTwb-2--icvVycL0almxbomoKoBijpdgvFnhi6Bsw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=Xc_2fO0svovLo8FhK3UN16IWFPU",
+            "c": 47,
+            "sha1": "b132d"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=020b0a7fb2374ebbba50177c925835fe&token=NuXIzAh93h2w99ricPIxauHnGYaJ-sVjdOr6yDi7CliCANqn_pAZGZ1RzSy5gl-Rw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=jJs2PmnsEoZaZBC-R2PM2tnC8dE",
+            "c": 48,
+            "sha1": "46157"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=d393b4e72c2745faaf235c5d1dfbedd5&token=NuXIzAh93h2w99ricPIxamfQp0mIn9ylMN7_tLyv2p8ckTgMIpRvbFMtvSSrXLkaw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=vE9EevWCghGWOz-vUWGjiHkD-Gs",
+            "c": 49,
+            "sha1": "85db0"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=ce8ecfb1888c47f7b29d9accf6a46310&token=NuXIzAh93h2w99ricPIxan-h5VRw0N_OnFEuicnbKICTsXercZeh5xxzNydmKAdiw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=o2CDAfnJFEXFS_KHLSuSyA64XFA",
+            "c": 50,
+            "sha1": "9ed72"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=b92994c0b8524b2aa0ea6539a2966f0f&token=NuXIzAh93h2w99ricPIxatHa8HiO3zDq8H05fkDZpCdKpYRR5ktY_-c_AnKTwOxJw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=Q-pY74AobmbTy_LZKa13Ervn7ec",
+            "c": 51,
+            "sha1": "09a9f"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=ca3ad571f0b744a2b51cf8ecd7be6478&token=NuXIzAh93h2w99ricPIxauAXXYQ39rE4ciaPumAse0RVi4aSl5iXObfiYl8OUDlDw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=x0F5znqdyUvMc1swhDWlx3OAFyc",
+            "c": 52,
+            "sha1": "e3baa"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=6d17d8f7d0be4077bf2c7190529a2176&token=NuXIzAh93h2w99ricPIxarvotGuVSirG276HLzyiHzUBmPhUuxQJGRzi5iNFwrUCw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=fBVBLgcxci0CheBk782FsU7Se24",
+            "c": 53,
+            "sha1": "21f86"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=721c2821bd854af5955ebb5acf421085&token=NuXIzAh93h2w99ricPIxanuC-SKXZUL6Kb9xau9ZUlK0MFqoGPDjdt19CvYI2uFfw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=RDuF3EE64i-cdPTVRnVlxgzvIuM",
+            "c": 54,
+            "sha1": "c68b6"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=ab847c14be494ba49ab12dcab0e04ec5&token=NuXIzAh93h2w99ricPIxamfQp0mIn9ylMN7_tLyv2p8ypHXRzOilzdF6Qn9BjdGtw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=KSEEJFHedx_4l_PN3evlLgS-QPU",
+            "c": 55,
+            "sha1": "4828e"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=da8ccb0a25084780907372b0fe9703b0&token=NuXIzAh93h2w99ricPIxaoTeA-95RycKp9R1enrlLd_fpQ-vFmz_AbOTi5807hR0w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=7Js38VwoK0Ho1Ho5blGoxb3Ti_k",
+            "c": 56,
+            "sha1": "1f808"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=7fb4e5f1a7bc4127b09caf1a0f5e2ba6&token=NuXIzAh93h2w99ricPIxaluTOrFAyX1pQDZA--0nP3Hj4QEGKDVdWjE3IwUHG5_iw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=_YMBfgVNmwpwwK9jrCK2NVB9IuE",
+            "c": 57,
+            "sha1": "172c5"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=fdc7bb52558746dfbeee05c3834bde77&token=NuXIzAh93h2w99ricPIxaup5RGojiaX0kXOEi4Pbwe3r1m22btSU5rpRpQmhgrktw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=pCq2zGsfvzBeuaOU9dzDHLH-yEM",
+            "c": 58,
+            "sha1": "c3f88"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=00c57d01efbc45659c15b7dbe266cf45&token=NuXIzAh93h2w99ricPIxaiDhpWmH35X6cDTYQEWpYNxsPKNtacP7ljKc9Npn1l5Ow2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=e52dhvDeD3hEQp1emHD-gGMi-GU",
+            "c": 59,
+            "sha1": "9f1da"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=8078e9e771044961b338fb042fb30863&token=NuXIzAh93h2w99ricPIxam3v6jtw6-aHVZJ_KQc8NIkTeZNeB-xtjclVUpoHYtsIw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=LB95Qs9bO04_Tb1hz3PIcSjG1uA",
+            "c": 60,
+            "sha1": "8bc14"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=828992f6c43f41da9b52376ed279d525&token=NuXIzAh93h2w99ricPIxamiY3ZwdcEeMVVCQa14nFYNRIZaL7dQZI-6IaFQvKD6Aw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=PiNN-tsjMRuy2vIfTAxE7yiXPxo",
+            "c": 61,
+            "sha1": "6f9d0"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=a4f606ff7a834699aeef9b748a90a7d5&token=NuXIzAh93h2w99ricPIxapTcL-GZT0Q0UCezl7-NT4P3n8ZcLwOztpn9FqRoOOh5w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=XNnYK6Wu91U-KdXwrNv9bXAndP8",
+            "c": 62,
+            "sha1": "6f699"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=66b22ad4c993437484eab6cb51d2c528&token=NuXIzAh93h2w99ricPIxajmlq703goUzuKHmg9lIFkETAHOVRRHy6PHCb_HtleDCw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=DqgC6-BKbl6CkGhHXsR1UK3_mOY",
+            "c": 63,
+            "sha1": "88a96"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=d2a674d86de74bdb8a0c242674c95159&token=NuXIzAh93h2w99ricPIxakvdUVQ1teSrP-QlNCoTfPUCO-LskOI1jjXyt-8UjRW1w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=_ELQ2OxmxN5CBxSFwX_YNAO1QcY",
+            "c": 64,
+            "sha1": "52721"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=d717ce0dba9841d4b7c00cd0f4aa0efa&token=NuXIzAh93h2w99ricPIxamvov9E5Wpur7R315t88rHC4IZcEbh8Y-tdvdjpXc27cw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=BW3UNiCWnQ1wg1HIapAg8vDuh7c",
+            "c": 65,
+            "sha1": "22b35"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=76c3ac5e38a040098ff5d69f7f74ff15&token=NuXIzAh93h2w99ricPIxasCabC3MvsW3L5kS5wSVK7M-cQQbZAeLMWVmZS8DLUBpw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=nrLP1ivS3Z0wJQb2BuW5l2IDPuA",
+            "c": 66,
+            "sha1": "b3bab"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=2b0a82fc1a1142dd9c757b6c3acf9d72&token=NuXIzAh93h2w99ricPIxarvotGuVSirG276HLzyiHzWUiyiWJxAXddBVQYk6VNSUw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=Wdouw0L5B3Qd9oJPC3mTeNKyt-A",
+            "c": 67,
+            "sha1": "36e67"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=8caf93ad536946fe9982e596cd7914c5&token=NuXIzAh93h2w99ricPIxak6uXz9R-PSf8UdKwCmjZwblJKK28YR74n5ycyVMjDnHw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=SLdftmQ-lpbZupNWuwOjQTmovwQ",
+            "c": 68,
+            "sha1": "a6ac6"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=913b169e6eab4aa0b9170f490c24ae44&token=NuXIzAh93h2w99ricPIxatZaPxDxfryXc4Gwo7-d3-a8mn7BwJXlddNt6H4dnBnDw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=X-mS1mRnCZUKZvyDou1kn_M4mOY",
+            "c": 69,
+            "sha1": "80953"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=65c796736bfd4798843818a3b28a344d&token=NuXIzAh93h2w99ricPIxaqyUJxC0Xl8lZvpiUoUgUMJh8RnkiVGFKvPpgVYYoT96w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=A49GD_3dBMb_D_PZlVXNxOV1JVs",
+            "c": 70,
+            "sha1": "ca3e7"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=cc45b587ab9d444da74387b4b5d63230&token=NuXIzAh93h2w99ricPIxaka5BQkNFv558y9mttt13xSeJoQOEN2VuDzIMxq905Nqw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=8eyZetEJe65b2CktCgOrpL5QMK8",
+            "c": 71,
+            "sha1": "866a8"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=c92ace043a2347a0ac5ef1660afa605e&token=NuXIzAh93h2w99ricPIxaohVGE_IKQDAbSw7gQLk67cYvQvLJQSnWtC44rcI1l4Ow2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=ctWeBTrCGrEsInJYDm2LiZjv6Es",
+            "c": 72,
+            "sha1": "1e5e1"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=5bb87858e900404cb499a97f48f1fb09&token=NuXIzAh93h2w99ricPIxakqIPLlCTAqBWhaDZeht75RSEC-wwsCcuL_fKSNnvKL_w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=fn4aCb_uAsRxX4G4vKK6n0aFTts",
+            "c": 73,
+            "sha1": "e0984"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=3236ad1af93247549ffa0a999c16edad&token=NuXIzAh93h2w99ricPIxan-h5VRw0N_OnFEuicnbKIAAkOkgU0qKDK7o6BBxEB6iw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=ETDFJegz1CrWzRXRes6KLo27bmE",
+            "c": 74,
+            "sha1": "43de7"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=197389ded6e94b5bb824959067cb3186&token=NuXIzAh93h2w99ricPIxal_Iwuankkz5Kw5Rnhgt-dLSHgOMW7nW3LGyQWeBZc4-w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=3C82x5WacIX-TZEBTg7U4NPrYQ4",
+            "c": 75,
+            "sha1": "c2293"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=d83ac5250f6c4fb499529b995ccd203a&token=NuXIzAh93h2w99ricPIxavlreoPBsQIPemTNVTeZleoHu7aufctW-Y13YOW71w6Rw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=5Z7iDNe4i3o1CvFSH7Vic2aDok0",
+            "c": 76,
+            "sha1": "9bf05"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=fc1b7456be554c9f8172c82ca01cb542&token=NuXIzAh93h2w99ricPIxam2W08UIX1-dbojw2IfYi9U096CZ3AjYMCQhlEnpcxRXw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=1zMRaw3mE0YlAY5wRtlDgCb9qV8",
+            "c": 77,
+            "sha1": "8b8ac"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=98df3f85726a4c7cb9bc1017f72c7e6d&token=NuXIzAh93h2w99ricPIxaqYtsCXhKMi4LVgFlyAfWuo4FI8J1QYPuFvmxZFrrCmYw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=A2Ie_-nELAYu1DGHbzCPyJo6OlQ",
+            "c": 78,
+            "sha1": "82c60"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=a7891de3dc9b487faedb0518c08f213a&token=NuXIzAh93h2w99ricPIxaicL4-i6dJ-CsjtJgmo0CyzROdLyXMLtKPi28A8yxj9Bw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=G2Vd0Gv-P1g_gJs5p5pGsH_svHw",
+            "c": 79,
+            "sha1": "c9777"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=6b321c0f991e4dfba1e39dccf250bea4&token=NuXIzAh93h2w99ricPIxamoOPc4u43c_Leex-EsmHP70mHVhaNQK5OKFc3hLALVXw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=cB-kojWQwkbZQzU3NcisaGG6kiw",
+            "c": 80,
+            "sha1": "2ef60"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=bbe6449777234ff2be2b1f4dfdeaa77e&token=NuXIzAh93h2w99ricPIxaoLSdr_FXhQC4C5dDkz7T3pCk1cONkeRA016s6hLHh0Uw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=HYkwe2yEd5ZpqJACr0D8t3j24F8",
+            "c": 81,
+            "sha1": "b8e9f"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=49f81975b2194b9086e654568a64e5de&token=NuXIzAh93h2w99ricPIxallgarmRtQaj_x_0TjuFuaiXIMIzIBe6YGEgkjurNP4aw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=FYjoY8xmdfBLALjyTWgQVhNE8vA",
+            "c": 82,
+            "sha1": "1a408"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=33d3fda1fcaf4737b26d844e1b6358e5&token=NuXIzAh93h2w99ricPIxanOPfMEy7_tTl4b5pc8jJXaEwPDI2vfN8lQ0IvYvLO8hw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=Ge1FRmog8T3JvZ8svztPyLbVfyI",
+            "c": 83,
+            "sha1": "ca9be"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=3957877aae0e459987c881b2f502a0ef&token=NuXIzAh93h2w99ricPIxapOkG-RpeHoIQ9EUMzzKInBYD_0JKAvJejgNgZr7S7D-w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=mxrEeXeVsIOKn6IDX4jMKDCdkHQ",
+            "c": 84,
+            "sha1": "f68e5"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=d079443fd23e4da3b348a10f1211a80d&token=NuXIzAh93h2w99ricPIxamiY3ZwdcEeMVVCQa14nFYNSXPq165fScTn8XlVwtL6bw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=V-8F5dKLF_7uz_zUIYn588XjTGM",
+            "c": 85,
+            "sha1": "43909"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=723411be13f24605af717781c4c50b5b&token=NuXIzAh93h2w99ricPIxaoHfqwKihaBooN6JJxmTbYlqs7_tPybmw6feJMmawJa5w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=U9f52oO3sVdAAjW8DY_4deLyK2Q",
+            "c": 86,
+            "sha1": "a8a5a"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=80404b72572243d9bbb1143481affdba&token=NuXIzAh93h2w99ricPIxaiEEO3S7mIQH6Rok8jHqSGt28BoMa2yLxWf2MOjySUTtw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=1PIGv3cX4kDV0C4TYpeM_EwEE0Q",
+            "c": 87,
+            "sha1": "8654c"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=093563eb3f614054bbe59df91b6c0984&token=NuXIzAh93h2w99ricPIxavp7xtJUihE9057w3txkxjewANI6g2R5ZY-9tYfByFwLw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=dEG7Ao14naaOKg0f96Vjps7rqjc",
+            "c": 88,
+            "sha1": "2808a"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=ff4abd398bcd4062a19237b854a9082d&token=NuXIzAh93h2w99ricPIxaiYe_qrPrcBy0gKhij-CtxJhllbT4-F6ug8c3xE5vb_Xw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=asa9J3fyejHjuo-s7oXTu22f6yc",
+            "c": 89,
+            "sha1": "0698b"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=79e70fafe0ea492d86f3c58759c30a69&token=NuXIzAh93h2w99ricPIxanlh3ufNPZ30REL-ihA95g_Dkw-pfWWuZVpGfLPZTT62w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=M059t-3NKfdiD21p4617Kg1d99k",
+            "c": 90,
+            "sha1": "60c75"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=6b5aa46d70124cef8eedb53ce62cd531&token=NuXIzAh93h2w99ricPIxatc-SX9O1vYk2yFnxqeeHqn5d306WO7IsAEneCef3waow2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=4gk87F-fJIjX8Mf4LQ_K8nYCLOk",
+            "c": 91,
+            "sha1": "fc977"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=d59325deaf4a4d62bbe2f6e8f6a77c53&token=NuXIzAh93h2w99ricPIxauYxbMK0l3QJ5s5tuPL1gmBMpa5DrBAK5q7sy-555uOAw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=VDMnEcQ5Qj8dMybhTxEnuCFNdXc",
+            "c": 92,
+            "sha1": "7ba16"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=c16eaeae22ae402e8d375f3b062cb8e9&token=NuXIzAh93h2w99ricPIxaotLwffZ0JkCZDJcj2jTi0IpB8zXWvsBSvMZ3OpFyVG0w2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=JudpLFnTG54j5v9W9rasMGtSF3k",
+            "c": 93,
+            "sha1": "7445a"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=ddf25962984045e1afad268f94e54bb2&token=NuXIzAh93h2w99ricPIxaqZJroJiw3Dzoudt9o2E6l1fnIWzAoJJSk_NrwAzi_cjw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=o3g0Lpww8Asr0RhShQtSi6KNI6g",
+            "c": 94,
+            "sha1": "45939"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=de03b9d9c55d4208b6668c07933c1d17&token=NuXIzAh93h2w99ricPIxaiOxNszrH53RkjDHWGSaepXXOVZ7ehHY27abhe4LCgUxw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=-_ekYTMYyX4ZtDaj-zTAlCN7QTI",
+            "c": 95,
+            "sha1": "7661e"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=094ef39bff0f410d8ac55840bb5772b0&token=NuXIzAh93h2w99ricPIxanuC-SKXZUL6Kb9xau9ZUlKrIHpxyXCe_N_Fw7noeXKaw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=U_-RaY3-VUL9y7XxoItTNvWTqPU",
+            "c": 96,
+            "sha1": "29bbe"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=c8d87c1c42244833860635233daff6c9&token=NuXIzAh93h2w99ricPIxagPSqQby1YFRB_u_Jf4KBYXcHciwpP7m7Ohctxp6D9Vdw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=iWAX8CNu9g10rv-UeScBlq3TnZg",
+            "c": 97,
+            "sha1": "3491a"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=2c48acfd85f04ad2a09db22236be2b46&token=NuXIzAh93h2w99ricPIxaqlNQMhQVh8yz-d6EQLX3U9K-JztZ7_L1-pQCVlhTNmSw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=mtd9tGDSBO6o0XbKzG_9V_fg3Go",
+            "c": 98,
+            "sha1": "77833"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=be20ca45635e44e79297d9e1aa7e4720&token=NuXIzAh93h2w99ricPIxapeX8Y13_koQpOSKkXSFnMDYBuSUcCZ71eT6lmhQdoClw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=sMC2nGd4-ctmdISuNujCI7TX1rw",
+            "c": 99,
+            "sha1": "722d2"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=5bd591783ddd4db2b14af6207b4cc51e&token=NuXIzAh93h2w99ricPIxat6V4Zb_fWlJyYC6dsp4I5FQClHxHagy6l6wIW05x4GKw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=gR-fI7xYkAlGwlA4mBRjwtdYGL0",
+            "c": 100,
+            "sha1": "7b7aa"
+        },
+        {
+            "url": "http://html.read.duokan.com/mfsv2/secure/fdsc3/60009/file?nonce=e03722e6c9af468bb56bd5fc79ba2bc8&token=NuXIzAh93h2w99ricPIxah2SaNfc1brVFH6WBwZqLIr11JTD8xLwWXeZID1wlMTyw2Uj5V4Wsmb7YbuoPsmLI2IEPlR7RWQy_B6sggV5JAY&sig=XmVFSuoBv3mi9nnDui-g-DRAsxY",
+            "c": 101,
+            "sha1": "f04f8"
+        }
+    ],
+    "result": 0
+}
