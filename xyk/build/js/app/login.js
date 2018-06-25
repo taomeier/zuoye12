@@ -1,1 +1,0 @@
-require(["jquery","storage"],function(n,t){n(".login-btn").on("click",function(){var o,r=n(".user").val(),e=n(".pwd").val();n.trim(r)?n.trim(e)||(o="密码为空"):o="用户名为空",o?alert(o):n.ajax({url:"/login",dataType:"json",type:"post",data:{user:r,pwd:e},success:function(o){console.log(o),0===o.code?(t.set("user",r),history.go(-1)):alert(o.msg)},error:function(o){console.warn(o)}})})});

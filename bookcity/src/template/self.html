@@ -1,0 +1,13 @@
+{{#each this}}
+    <li class="self-list-li details" id-fiction="{{fiction_id}}">
+        <div class="self-list-img">
+            <img src="{{cover}}" alt="">
+        </div>
+        <div class="self-list-info">
+            <p class="self-list-p-title">{{title}}</p>
+            <p class="self-list-p-authors">{{authors}}</p>
+            <p class="self-list-p-read"></p>
+            <p class="self-list-p-new">{{latest}}</p>
+        </div>
+    </li>
+{{/each}}

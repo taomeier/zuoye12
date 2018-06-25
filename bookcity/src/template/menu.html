@@ -1,0 +1,10 @@
+{{#each this}}
+    <li data-chapter="{{chapter_id}}">
+        <p >
+            {{title}}
+            {{#if free}}
+            <span class="free">免费</span>
+            {{/if}}
+        </p>
+    </li>
+{{/each}}

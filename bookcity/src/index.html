@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta name='format-detection' content='telephone=no,email=no,address=no'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,max-scale=1.0,min-scale=1.0,user-scalable=no'>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-4.1.6.min.css">
+</head>
+<body>
+    <div class="wraper">
+        <div class="x-scroll">
+            <div class="box">
+                <header>
+                    <span class="img-sign"></span>
+                    <div class="header-tab">
+                        <a href="#slide1" class="header-show">书城</a>
+                        <a href="#slide2">书架</a>
+                        <div class="header-line"></div>
+                    </div>
+                    <span class="img-user"></span>
+                </header>
+                <main class="swiper-container swiper-no-swiping bookCity">
+                    <div class="swiper-wrapper">
+                        <!-- 书城的盒子 -->
+                        <div class="swiper-slide" data-hash="slide1">
+                            <div class="book-city">
+                                <div class="book-city-scroll" data-up="上拉刷新" data-down="下拉加载"></div>
+                            </div>
+                        </div>
+                        <!-- 书架的盒子 -->
+                        <div class="swiper-slide" data-hash="slide2">
+                            <div class="book-self">
+                                <div class="book-self-scroll">
+                                    <div class="top-home">
+                                        <div class="search">输入书名/作者/关键字</div>
+                                        <span class="list-change"></span>
+                                    </div>
+                                    <div class="block">
+                                        <ul class="block-list self-inner">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <div class="red"></div>
+            </div>            
+            <div class="space"></div>
+        </div>
+    </div>
+    <script src="js/lib/require.js"></script>
+    <script>
+        require(['./js/config'],function(){
+            require(['index']);
+        });
+    </script>
+</body>
+</html>

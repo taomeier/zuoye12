@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta name='format-detection' content='telephone=no,email=no,address=no'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,max-scale=1.0,min-scale=1.0,user-scalable=no'>
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+<body>
+    <div class="wraper">
+        <header>
+            <span class="img-back" ontouchstart="history.back()"></span>
+            <div class="header-title"></div>
+            <span class="img-home" ontouchstart="location.href = 'http://localhost:8000/'"></span>
+        </header>
+        <section>
+            <div class="scroll">
+                <div class="inner">
+                    
+                </div>
+            </div>
+        </section>
+        <div class="red"></div>
+    </div>
+    <script src="../js/lib/require.js"></script>
+    <script>
+        require(['../js/config'],function(){
+            require(['details']);
+        });
+    </script>
+</body>
+</html>

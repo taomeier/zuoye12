@@ -1,0 +1,60 @@
+{{#if this.item}}
+    <dl class="item">
+        <dt>
+            <img data-original="{{this.item.cover}}" class="lazy" src="" alt="">
+        </dt>
+        <dd>
+            <p class="title">{{this.item.title}}</p>
+            <p class="authors">{{this.item.authors}}</p>
+            <div class="score">
+                <span class="score-count">{{this.item.score_count}}个评价</span>
+            </div>
+            <p class="pirce">价格：{{this.item.price}}书币/千字</p>
+            <p class="count">
+                字数：{{#fontSize this}}{{/fontSize}}万字
+                <span class="finish">
+                    {{#if this.item.finish}}
+                        完结
+                    {{else}}
+                        连载
+                    {{/if}}
+                </span>
+            </p>
+        </dd>
+    </dl>
+    <div class="btn">
+        <div class="read-btn" data-href="./text.html" data-id="{{this.item.source_id}}" data-chapter="{{this.item.latest_id}}">开始阅读</div>
+        <div class="download-btn">下载</div>
+    </div>
+    <div class="content">{{this.item.content}}</div>
+    <div class="latest" data-href="./menu.html" data-id="{{this.item.source_id}}" data-chapter="{{this.item.latest_id}}">最新：{{this.item.latest}} 更新于<span class="latest-time"></span></div>
+    <div class="tags-box">
+        <h4>类别标签</h4>
+        <div class="tags">
+            {{#each this.item.tags}}
+                <span>{{this}}</span>
+            {{/each}}
+        </div>
+    </div>
+{{/if}}
+{{#if this.author_books}}
+    <div class="author-books-box">
+        <h4>作者其它图书</h4>
+        <ul>
+            {{#each this.author_books}}
+                <li>
+                    <div class="author-books-img">
+                        <img data-original="{{cover}}" class="lazy" src="" alt="">
+                    </div>
+                    <p class="author-books-title">{{title}}</p>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+{{/if}}
+{{#if this.item}}
+    <div class="rights">
+        <h4>图书信息</h4>
+        <p>版权：{{this.item.rights}}</p>
+    </div>
+{{/if}}

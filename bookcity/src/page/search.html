@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta name='format-detection' content='telephone=no,email=no,address=no'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,max-scale=1.0,min-scale=1.0,user-scalable=no'>
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/search.css">
+</head>
+<body>
+    <div class="wraper">
+        <header>
+            <span class="img-back" ontouchstart="history.back()"></span>
+            <div class="header-inp">
+                <span class="img-search"></span>
+                <input type="text" placeholder="输入书名/作者/关键字">
+                <div class="search-btn">搜索</div>
+            </div>
+        </header>
+        <section>
+            <div class="scroll">
+                <ul class="tag"></ul>
+                <div class="list"></div>
+                <div class="mes">没有响应的搜索结果</div>
+            </div>
+        </section>
+    </div>
+    <script src="../js/lib/require.js"></script>
+    <script>
+        require(['../js/config'],function(){
+            require(['search']);
+        });
+    </script>
+</body>
+</html>

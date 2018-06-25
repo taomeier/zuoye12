@@ -1,0 +1,68 @@
+<div class="top-home">
+    <div class="search">
+        输入书名/作者/关键字
+    </div>
+    <!-- 轮播图 -->
+    <div class="swiper-container swiper-no-swiping banner">
+        <div class="swiper-wrapper banner-box">
+            {{#each this}}
+                <div class="swiper-slide">
+                    <img src="{{ad_pic_url}}" alt="">
+                </div>
+            {{/each}}
+        </div>                
+    </div>
+    <!-- 导航 -->
+    <div class="nav"></div>
+</div>
+<!-- 本周 -->
+<div class="block-wrapper">
+    <!-- 最热 -->
+    <div class="block hot"></div>
+    <!-- 推荐 -->
+    <div class="block rec">
+        <div class="block-tit">
+            <h4>重磅推荐</h4>
+            <i>推</i>
+            <div class="block-tit-tab">
+                <span class="block-tit-boy block-tit-on">男</span>
+                <span class="block-tit-girl">女</span>
+            </div>
+        </div>
+        <ul class="block-list rec-inner"></ul>
+        <div class="block-btn-flex">
+            <a href="#" class="change-btn" data-index="0" data="2">换一换</a>
+            <a href="#">查看更多</a>
+        </div>
+    </div>
+    <!-- 女生 -->
+    <div class="block girl">
+        <div class="block-tit">
+            <h4>女生最爱</h4>
+        </div>
+        <ul class="block-list girl-inner"></ul>
+        <div class="block-btn-flex">
+            <a href="#" class="change-btn" data-index="0" data="3">换一换</a>
+            <a href="#">女生频道》</a>
+        </div>
+    </div>
+    <!-- 男生 -->
+    <div class="block boy">
+        <div class="block-tit">
+            <h4>男生最爱</h4>
+        </div>
+        <ul class="block-list boy-inner"></ul>
+        <div class="block-btn-flex">
+            <a href="#" class="change-btn" data-index="0" data="4">换一换</a>
+            <a href="#">男生频道》</a>
+        </div>
+    </div>
+    <!-- 限时 -->
+    <div class="block time"></div>
+    <!-- 精选 -->
+    <div class="block sift"></div>
+    <!-- 上拉加载 -->
+    <div class="block up">
+        <ul class="block-list up-inner"></ul>
+    </div>
+</div>

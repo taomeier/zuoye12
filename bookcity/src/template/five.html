@@ -1,0 +1,35 @@
+{{#each this}}
+    {{#compare @index 0}}
+        <li class="block-list-li details" id-fiction="{{fiction_id}}">
+            <div class="block-list-img">
+                <img src="{{cover}}" alt="">
+                <div class="block-list-img-page">
+                    {{#indexA @index}}{{/indexA}}
+                </div>
+                {{#if finish}}
+                <div class="block-list-finish">
+                    完结
+                </div>
+                {{/if}}
+            </div>
+            <div class="block-list-info">
+                <p class="block-list-p-title">{{title}}</p>
+                <p class="block-list-p-authors">{{authors}}</p>
+                <p class="block-list-p-summary">{{summary}}</p>
+                <p class="block-list-p-tags">
+                    {{#three tags}}
+                        {{#each this}}
+                            <span>{{this}}</span>
+                        {{/each}}
+                    {{/three}}
+                </p>
+            </div>
+        </li>
+    {{else}}
+        <li id-fiction="{{fiction_id}}" class="details">
+            <span class="block-li-page">{{#indexA @index}}{{/indexA}}</span>
+            <p class="block-li-title">{{title}}</p>
+            <span class="block-li-authors">{{authors}}</span>
+        </li>
+    {{/compare}}
+{{/each}}

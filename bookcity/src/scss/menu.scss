@@ -1,0 +1,87 @@
+@import './common.scss';
+img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.wraper{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    header{
+        width:100%;
+        height:pxTorem(50px);
+        font-size: pxTorem(16px);
+        background: #efeff0;
+        border-bottom: pxTorem(1px) solid #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .img-back{
+            width:pxTorem(50px);
+            height:pxTorem(50px);
+            background: url(http://dushu.xiaomi.com/x0D0GrWs.png) no-repeat center;
+            background-size:pxTorem(16px);
+        }
+        .header-title{
+            flex: 1;
+            font-size: pxTorem(15px);
+            color: rgba(0, 0, 0, 0.7);
+        }
+        .img-home{
+            width:pxTorem(50px);
+            height:pxTorem(50px);
+            background: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01eZH42sBV7/QTS90E2ZVritaa.png) no-repeat center;
+            background-size:pxTorem(16px);
+        }
+    }
+    section{
+        width:100%;
+        height:100%;
+        display: flex;
+        .scroll{
+            width:100%;
+            height: auto;
+            overflow-y: auto;
+        }
+    }
+    .red{
+        position: fixed;
+        right: pxTorem(20px);
+        bottom: pxTorem(20px);
+        display: block;
+        width: pxTorem(80px);
+        height: pxTorem(60px);
+        background-image: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01gqI2q6SNw/NgbH9Zl17WwYes.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+    }
+}
+.inner{
+    width:100%;
+    height:auto;
+    li{
+        width:100%;
+        line-height: pxTorem(38px);
+        border-bottom: pxTorem(1px) solid #EEE;
+        p{
+            width:90%;
+            height:100%;
+            margin:0 auto;
+            font-size: pxTorem(14px);
+            color: #555;
+            display: flex;
+            justify-content: space-between;
+        }
+        p>span{
+            color: #6cb378;
+        }
+        .show{
+            color: #F35D02;
+        }
+    }
+}

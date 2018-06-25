@@ -1,0 +1,24 @@
+{{#each this}}
+    <li class="block-list-li details" id-fiction="{{fiction_id}}">
+        <div class="block-list-img">
+            <img src="{{cover}}" alt="">
+            {{#if finish}}
+                <div class="block-list-finish">完结</div>
+            {{else}}
+                <div class="block-list-finish">连载</div>
+            {{/if}}
+        </div>
+        <div class="block-list-info">
+            <p class="block-list-p-title">{{title}}</p>
+            <p class="block-list-p-authors">{{authors}}</p>
+            <p class="block-list-p-summary">{{summary}}</p>
+            <p class="block-list-p-tags">
+                {{#three tags}}
+                    {{#each this}}
+                        <span>{{this}}</span>
+                    {{/each}}
+                {{/three}}
+            </p>
+        </div>
+    </li>
+{{/each}}

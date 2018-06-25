@@ -1,0 +1,70 @@
+<header>
+    <div class="header-box">
+        <span class="back" onclick="history.back()"></span>
+        <span class="header-back">返回</span> 
+        <span class="setting"></span>
+    </div>
+</header>
+<section>
+    <div class="scroll">
+        <div class="text" data-night="0" data-bg="0">
+            <ul class="text-box">
+                <li>
+                    <h4 class="title">{{this.t}}</h4>
+                    {{#each this.p}}
+                        <p>{{this}}</p>
+                    {{/each}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="menu-box">
+        <div class="prev-btn">
+            上一章
+        </div>
+        <div class="menu-num">
+            <span class="this-sec"></span>
+            /
+            <span class="all-sec"></span>
+        </div>
+        <div class="next-btn">
+            下一章
+        </div>
+    </div>
+    <ul class="setting-box">
+        <li class="menu-btn" data-href="./menu.html">
+            <span class="img-menu"></span>
+            目录
+        </li>
+        <li class="font-btn">
+            <span class="img-font"></span>
+            字体
+        </li>
+        <li class="night-btn">
+            <span class="img-night"></span>
+            <b class="night-text">夜间</b>
+        </li>
+        <li class="download-btn">
+            <span class="img-download"></span>
+            下载
+        </li>
+        <div class="font-mark">
+            <div class="font-size">
+                字号
+                <span class="font-size-add">大</span>
+                <span class="font-size-sub">小</span>
+            </div>
+            <div class="background-color">
+                背景
+                <span class="back-def back-show"></span>
+                <span class="back-y"></span>
+                <span class="back-gray"></span>
+                <span class="back-green"></span>
+                <span class="back-blue"></span>
+                <span class="back-black"></span>
+            </div>
+        </div>
+    </ul>
+</footer>

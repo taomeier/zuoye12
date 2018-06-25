@@ -1,0 +1,260 @@
+@import './common.scss';
+.wraper{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    header{
+        width: 100%;
+        top: 0;
+        height: pxTorem(50px);
+        font-size: pxTorem(14px);
+        line-height: pxTorem(50px);
+        color: #d5d5d6;
+        position: absolute;
+        left: 0;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        .header-box{
+            width:90%;
+            height:100%;
+            margin:0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .back{
+            width: pxTorem(23px);
+            height: pxTorem(23px);
+            background: url(http://dushu.xiaomi.com/@EaSXPML.png) no-repeat;
+            background-size: pxTorem(23px) pxTorem(23px);
+        }
+        .header-back{
+            flex: 1;
+            margin-left:5%;
+        }
+        .setting{
+            width: pxTorem(24px);
+            height: pxTorem(6px);
+            background: url(http://dushu.xiaomi.com/3o66jDFr.png) no-repeat;
+            background-size: contain;
+        }
+    }
+    section{
+        width:100%;
+        height:100%;
+        display: flex;
+        .scroll{
+            width:100%;
+            height: auto;
+            overflow-y: auto;
+        }
+    }
+    footer{
+        width:100%;
+        height:auto;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        .menu-box{
+            border-bottom: pxTorem(1px) solid #333;
+            display: flex;
+            width: 100%;
+            font-size: pxTorem(13px);
+            line-height: pxTorem(48px);
+            height: pxTorem(48px);
+            color: #fff;
+            text-align: center;
+        }
+        .prev-btn,.next-btn{
+            width:25%;
+            height:100%;
+        }
+        .menu-num{
+            flex:1;
+        }
+        .setting-box{
+            width:100%;
+            height:pxTorem(70px);    
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+        .setting-box>li{
+            width:25%;
+            height:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color:#fff;
+            text-align: center;
+        }
+        .setting-box>li>span{
+            width:100%;
+            height:pxTorem(23px);
+            margin-bottom: pxTorem(9px);
+        }
+        .img-menu{
+            background: url(http://dushu.xiaomi.com/0wcW9@C9.png) no-repeat center;
+            background-size: pxTorem(18px) pxTorem(13px);
+        }
+        .img-font{
+            background: url(http://dushu.xiaomi.com/sZwk5ja6.png) no-repeat center;
+            background-size: pxTorem(20px) pxTorem(13px);
+        }
+        .img-font-toggle{
+            background: url(http://dushu.xiaomi.com/hQ8tguOh.png) no-repeat center;
+        }
+        .img-night{
+            background: url(http://dushu.xiaomi.com/vEo70Tka.png) no-repeat center;
+        }
+        .night-change{
+            background: url(http://dushu.xiaomi.com/IOZve5iu.png) no-repeat center;
+        }
+        .img-download{
+            background: url(http://dushu.xiaomi.com/kgwIyM3V.png) no-repeat center;
+        }
+        .font-mark{
+            width:100%;
+            height:pxTorem(135px);
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 2;
+            top:pxTorem(-135px);
+            font-size: pxTorem(14px);
+            color: #fff;
+            display: none;
+        }
+        .font-size{
+            width:90%;
+            margin:pxTorem(25px) auto 0;
+            padding: pxTorem(5px) pxTorem(10px);
+            line-height: pxTorem(21px);
+        }
+        .font-size>span{
+            margin: 0 5%;
+            border: pxTorem(1px) solid #8c8c8c;
+            border-radius: pxTorem(16px);
+            padding: pxTorem(5px) pxTorem(40px);
+            font-size: pxTorem(13px);
+            line-height: pxTorem(16px);
+            color: #fff;
+        }
+        .background-color{
+            width:90%;
+            margin:pxTorem(30px) auto 0;
+            display: flex;
+            align-items: center;
+        }
+        .background-color>span{
+            display: inline-block;
+            margin-left: 5%;
+            width: pxTorem(30px);
+            height: pxTorem(30px);
+            border-radius: pxTorem(15px);
+            border:pxTorem(1px) solid;
+        }
+        span.back-def{
+            background: #f7eee5;
+            border-color:#f7eee5;
+        }
+        span.back-y{
+            background: #e9dfc7;
+            border-color:#e9dfc7;
+        }
+        span.back-gray{
+            background: #a4a4a4;
+            border-color:#a4a4a4;
+        }
+        span.back-green{
+            background: #cdefce;
+            border-color:#cdefce;
+        }
+        span.back-blue{
+            background: #283548;
+            border-color:#283548;
+        }
+        span.back-black{
+            background: #0f1410;
+            border-color:#0f1410;
+        }
+        span.back-show{
+            border-color:#ff7800;
+        }
+    }
+}
+.wraper-none{
+    header{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
+.text{
+    width:100%;
+    height:auto;
+    padding:pxTorem(15px) 0;
+    font-size:pxTorem(17px);
+    li{
+        width:90%;
+        height:auto;
+        margin:0 auto;
+        padding-bottom:pxTorem(50px);
+    }
+    h4{
+        margin-bottom: pxTorem(20px);
+        border-bottom: pxTorem(1px) solid #736357;
+        font-size: pxTorem(20px);
+        line-height: pxTorem(31px);
+        color: #736357;
+        letter-spacing: pxTorem(2px);
+        font-weight: bold;
+    }
+    p{
+        text-indent: pxTorem(30px);
+        margin: pxTorem(5px) 0;
+        text-align: justify;
+        letter-spacing: 0;
+        line-height: pxTorem(24px);
+        overflow: hidden;
+        font-size: pxTorem(16px);
+    }
+}
+.text[data-night="0"]{
+    background: #f7eee5;
+    color:#000;
+}
+.text[data-bg="0"]{
+    background: #f7eee5;
+    color:#000;
+}
+.text[data-bg="1"]{
+    background:#e9dfc7;
+    color:#000;
+}
+.text[data-bg="2"]{
+    background:#a4a4a4;
+    color:#000;
+}
+.text[data-bg="3"]{
+    background:#cdefce;
+    color:#000;
+}
+.text[data-bg="4"]{
+    background:#283548;
+    color:#7685a2;
+}
+.text[data-bg="5"]{
+    background: #0f1410;
+    color:#4e534f;
+}
+.text[data-night="1"]{
+    background: #0f1410;
+    color:#4e534f;
+}

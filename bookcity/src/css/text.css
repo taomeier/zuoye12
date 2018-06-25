@@ -1,0 +1,290 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline; }
+
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+  -webkit-text-size-adjust: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  font-family: arial, sans-serif; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+ins, a {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: inline-block; }
+
+input, textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none; }
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+  -o-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px; }
+
+.wraper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+  .wraper header {
+    width: 100%;
+    top: 0;
+    height: 1.33333rem;
+    font-size: 0.37333rem;
+    line-height: 1.33333rem;
+    color: #d5d5d6;
+    position: absolute;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2; }
+    .wraper header .header-box {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+    .wraper header .back {
+      width: 0.61333rem;
+      height: 0.61333rem;
+      background: url(http://dushu.xiaomi.com/@EaSXPML.png) no-repeat;
+      background-size: 0.61333rem 0.61333rem; }
+    .wraper header .header-back {
+      flex: 1;
+      margin-left: 5%; }
+    .wraper header .setting {
+      width: 0.64rem;
+      height: 0.16rem;
+      background: url(http://dushu.xiaomi.com/3o66jDFr.png) no-repeat;
+      background-size: contain; }
+  .wraper section {
+    width: 100%;
+    height: 100%;
+    display: flex; }
+    .wraper section .scroll {
+      width: 100%;
+      height: auto;
+      overflow-y: auto; }
+  .wraper footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2; }
+    .wraper footer .menu-box {
+      border-bottom: 0.02667rem solid #333;
+      display: flex;
+      width: 100%;
+      font-size: 0.34667rem;
+      line-height: 1.28rem;
+      height: 1.28rem;
+      color: #fff;
+      text-align: center; }
+    .wraper footer .prev-btn, .wraper footer .next-btn {
+      width: 25%;
+      height: 100%; }
+    .wraper footer .menu-num {
+      flex: 1; }
+    .wraper footer .setting-box {
+      width: 100%;
+      height: 1.86667rem;
+      display: flex;
+      justify-content: space-between;
+      position: relative; }
+    .wraper footer .setting-box > li {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center; }
+    .wraper footer .setting-box > li > span {
+      width: 100%;
+      height: 0.61333rem;
+      margin-bottom: 0.24rem; }
+    .wraper footer .img-menu {
+      background: url(http://dushu.xiaomi.com/0wcW9@C9.png) no-repeat center;
+      background-size: 0.48rem 0.34667rem; }
+    .wraper footer .img-font {
+      background: url(http://dushu.xiaomi.com/sZwk5ja6.png) no-repeat center;
+      background-size: 0.53333rem 0.34667rem; }
+    .wraper footer .img-font-toggle {
+      background: url(http://dushu.xiaomi.com/hQ8tguOh.png) no-repeat center; }
+    .wraper footer .img-night {
+      background: url(http://dushu.xiaomi.com/vEo70Tka.png) no-repeat center; }
+    .wraper footer .night-change {
+      background: url(http://dushu.xiaomi.com/IOZve5iu.png) no-repeat center; }
+    .wraper footer .img-download {
+      background: url(http://dushu.xiaomi.com/kgwIyM3V.png) no-repeat center; }
+    .wraper footer .font-mark {
+      width: 100%;
+      height: 3.6rem;
+      position: absolute;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 2;
+      top: -3.6rem;
+      font-size: 0.37333rem;
+      color: #fff;
+      display: none; }
+    .wraper footer .font-size {
+      width: 90%;
+      margin: 0.66667rem auto 0;
+      padding: 0.13333rem 0.26667rem;
+      line-height: 0.56rem; }
+    .wraper footer .font-size > span {
+      margin: 0 5%;
+      border: 0.02667rem solid #8c8c8c;
+      border-radius: 0.42667rem;
+      padding: 0.13333rem 1.06667rem;
+      font-size: 0.34667rem;
+      line-height: 0.42667rem;
+      color: #fff; }
+    .wraper footer .background-color {
+      width: 90%;
+      margin: 0.8rem auto 0;
+      display: flex;
+      align-items: center; }
+    .wraper footer .background-color > span {
+      display: inline-block;
+      margin-left: 5%;
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 0.4rem;
+      border: 0.02667rem solid; }
+    .wraper footer span.back-def {
+      background: #f7eee5;
+      border-color: #f7eee5; }
+    .wraper footer span.back-y {
+      background: #e9dfc7;
+      border-color: #e9dfc7; }
+    .wraper footer span.back-gray {
+      background: #a4a4a4;
+      border-color: #a4a4a4; }
+    .wraper footer span.back-green {
+      background: #cdefce;
+      border-color: #cdefce; }
+    .wraper footer span.back-blue {
+      background: #283548;
+      border-color: #283548; }
+    .wraper footer span.back-black {
+      background: #0f1410;
+      border-color: #0f1410; }
+    .wraper footer span.back-show {
+      border-color: #ff7800; }
+
+.wraper-none header {
+  display: none; }
+
+.wraper-none footer {
+  display: none; }
+
+.text {
+  width: 100%;
+  height: auto;
+  padding: 0.4rem 0;
+  font-size: 0.45333rem; }
+  .text li {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 1.33333rem; }
+  .text h4 {
+    margin-bottom: 0.53333rem;
+    border-bottom: 0.02667rem solid #736357;
+    font-size: 0.53333rem;
+    line-height: 0.82667rem;
+    color: #736357;
+    letter-spacing: 0.05333rem;
+    font-weight: bold; }
+  .text p {
+    text-indent: 0.8rem;
+    margin: 0.13333rem 0;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 0.64rem;
+    overflow: hidden;
+    font-size: 0.42667rem; }
+
+.text[data-night="0"] {
+  background: #f7eee5;
+  color: #000; }
+
+.text[data-bg="0"] {
+  background: #f7eee5;
+  color: #000; }
+
+.text[data-bg="1"] {
+  background: #e9dfc7;
+  color: #000; }
+
+.text[data-bg="2"] {
+  background: #a4a4a4;
+  color: #000; }
+
+.text[data-bg="3"] {
+  background: #cdefce;
+  color: #000; }
+
+.text[data-bg="4"] {
+  background: #283548;
+  color: #7685a2; }
+
+.text[data-bg="5"] {
+  background: #0f1410;
+  color: #4e534f; }
+
+.text[data-night="1"] {
+  background: #0f1410;
+  color: #4e534f; }

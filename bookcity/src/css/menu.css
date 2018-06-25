@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline; }
+
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+  -webkit-text-size-adjust: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  font-family: arial, sans-serif; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+ins, a {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: inline-block; }
+
+input, textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none; }
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+  -o-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px; }
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+.wraper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .wraper header {
+    width: 100%;
+    height: 1.33333rem;
+    font-size: 0.42667rem;
+    background: #efeff0;
+    border-bottom: 0.02667rem solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .wraper header .img-back {
+      width: 1.33333rem;
+      height: 1.33333rem;
+      background: url(http://dushu.xiaomi.com/x0D0GrWs.png) no-repeat center;
+      background-size: 0.42667rem; }
+    .wraper header .header-title {
+      flex: 1;
+      font-size: 0.4rem;
+      color: rgba(0, 0, 0, 0.7); }
+    .wraper header .img-home {
+      width: 1.33333rem;
+      height: 1.33333rem;
+      background: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01eZH42sBV7/QTS90E2ZVritaa.png) no-repeat center;
+      background-size: 0.42667rem; }
+  .wraper section {
+    width: 100%;
+    height: 100%;
+    display: flex; }
+    .wraper section .scroll {
+      width: 100%;
+      height: auto;
+      overflow-y: auto; }
+  .wraper .red {
+    position: fixed;
+    right: 0.53333rem;
+    bottom: 0.53333rem;
+    display: block;
+    width: 2.13333rem;
+    height: 1.6rem;
+    background-image: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01gqI2q6SNw/NgbH9Zl17WwYes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1; }
+
+.inner {
+  width: 100%;
+  height: auto; }
+  .inner li {
+    width: 100%;
+    line-height: 1.01333rem;
+    border-bottom: 0.02667rem solid #EEE; }
+    .inner li p {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      font-size: 0.37333rem;
+      color: #555;
+      display: flex;
+      justify-content: space-between; }
+    .inner li p > span {
+      color: #6cb378; }
+    .inner li .show {
+      color: #F35D02; }
