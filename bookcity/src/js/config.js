@@ -16,7 +16,8 @@ require.config({
         search: 'search/search',
         details: 'details/details',
         menu: 'menu/menu',
-        textHtml:'text/text'
+        textHtml: 'text/text',
+        login:'login/login'
     },
     shim: {
         lazyload: {

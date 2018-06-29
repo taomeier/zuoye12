@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="wraper">
+        <div class="logo">
+            <span class="img-logo"></span>
+            <h1>小米账号登录</h4>
+        </div>
+        <div class="inp">
+            <input type="text" id="user" placeholder="邮箱/手机号码/小米ID">
+            <div class="pass">
+                <input type="password" id="pass" placeholder="密码">
+                <span class="eye"></span>
+            </div>
+            <div class="mes"></div>
+            <input type="button" value="登录" class="log-btn">
+            <input type="button" value="注册" class="register-btn">
+            <div class="reg-for">
+                <a href="#">立即注册</a>
+                |
+                <a href="#">忘记密码？</a>
+            </div>
+        </div>
+        <div class="log-else">
+            <h2>其他方式登录</h2>
+            <div class="log-else-img">
+                <span>
+                    <i class="img-qq"></i>
+                </span>
+                <span>
+                    <i class="img-blog"></i>
+                </span>
+                <span>
+                    <i class="img-alipay"></i>
+                </span>
+            </div>
+        </div>
+        <div class="language">
+            <a href="#">简体</a>
+            <a href="#">繁体</a>
+            <a href="#">English</a>
+            <a href="#">常见问题</a>
+            <a href="#">隐私政策</a>
+        </div>
+    </div>
+    <script src="../js/lib/require.js"></script>
+    <script>
+        require(['../js/config'],function(){
+            require(['login']);
+        });
+    </script>
+</body>
+</html>
